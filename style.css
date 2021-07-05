@@ -5,7 +5,6 @@ body {
 }
 #container {
   width: 800px;
-  justify-content: center;
 }
 .orange {
   color: orange;
@@ -23,6 +22,13 @@ body {
 .half-width img {
   width: 60%;
 }
+.anchor-button {
+  text-decoration: none;
+  background: linear-gradient(lightsalmon, tomato);
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: white;
+}
 .banner {
   background-image: url(images/shapes/bg-two.png);
   background-repeat: no-repeat;
@@ -30,10 +36,38 @@ body {
 #recipies-header {
   text-align: center;
 }
+#food-content {
+  width: 800px;
+  display: flex;
+}
+#food-content img {
+  width: 100%;
+}
+#food-content h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+#food-content p {
+  text-align: left;
+  font-size: 14px;
+}
+.recipies-item {
+  text-align: center;
+  height: 350px;
+  box-shadow: 5px 7px 40px gray;
+  border-radius: 15px;
+  padding: 10px 10px 10px 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 #social {
   display: flex;
 }
 #foot-background {
   background-color: black;
+  height: 100px;
   text-align: center;
+  font-size: 10px;
 }
