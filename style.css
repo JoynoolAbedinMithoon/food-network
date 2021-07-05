@@ -18,9 +18,16 @@ body {
 .half-width {
   width: 800px;
   display: flex;
+  padding-left: 10%;
 }
 .half-width img {
   width: 60%;
+  float: right;
+  padding-right: 60px;
+}
+#text-order-food {
+  padding-top: 40px;
+  padding-left: 40px;
 }
 .anchor-button {
   text-decoration: none;
@@ -29,7 +36,7 @@ body {
   border-radius: 25px;
   color: white;
 }
-.banner {
+#banner {
   background-image: url(images/shapes/bg-two.png);
   background-repeat: no-repeat;
 }
@@ -64,6 +71,13 @@ body {
 }
 #social {
   display: flex;
+  box-shadow: 5px 7px 40px gray;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 #foot-background {
   background-color: black;
