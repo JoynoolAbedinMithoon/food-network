@@ -1,7 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: 0px;
-  padding: 0px;
 }
 #container {
   width: 800px;
@@ -16,29 +15,42 @@ body {
   color: white;
 }
 .half-width {
-  width: 800px;
   display: flex;
-  padding-left: 10%;
+  margin-top: 30px;
 }
 .half-width img {
-  width: 60%;
+  width: 70%;
   float: right;
-  padding-right: 60px;
+  padding-right: 50px;
 }
 #text-order-food {
+  width: 550px;
   padding-top: 40px;
-  padding-left: 40px;
+  padding-left: 50px;
 }
 .anchor-button {
   text-decoration: none;
   background: linear-gradient(lightsalmon, tomato);
+  box-shadow: 5px 5px 20px tomato;
   padding: 10px 20px;
   border-radius: 25px;
   color: white;
 }
 #banner {
-  background-image: url(images/shapes/bg-two.png);
+  background-image: url(images/shapes/background.png);
   background-repeat: no-repeat;
+  height: 400px;
+  width: 800px;
+  padding-left: 50px;
+}
+#banner img {
+  width: 90%;
+  padding-top: 88px;
+}
+#text-contact-me {
+  margin-top: 45px;
+  padding-left: 50px;
+  padding-right: 150px;
 }
 #recipies-header {
   text-align: center;
