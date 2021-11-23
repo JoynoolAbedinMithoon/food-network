@@ -4,6 +4,7 @@ body {
 }
 #container {
   width: 800px;
+  margin: auto;
 }
 .orange {
   color: orange;
@@ -31,10 +32,13 @@ body {
 .anchor-button {
   text-decoration: none;
   background: linear-gradient(lightsalmon, tomato);
-  box-shadow: 5px 5px 20px tomato;
   padding: 10px 20px;
   border-radius: 25px;
   color: white;
+}
+.anchor-button:hover {
+  box-shadow: 5px 5px 20px tomato;
+  transition: 0.5s;
 }
 #banner {
   background-image: url(images/shapes/background.png);
@@ -73,7 +77,7 @@ body {
 .recipies-item {
   text-align: center;
   height: 350px;
-  box-shadow: 5px 7px 40px gray;
+  box-shadow: 5px 7px 20px gray;
   border-radius: 15px;
   padding: 10px 10px 10px 10px;
   margin-top: 20px;
@@ -84,7 +88,7 @@ body {
 #social {
   display: flex;
   height: 80px;
-  box-shadow: 5px 7px 40px gray;
+  box-shadow: 5px 7px 20px gray;
   border-radius: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
